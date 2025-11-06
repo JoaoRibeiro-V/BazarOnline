@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2" pages="15">
   <diagram name="Página-1" id="hFz0I-DL2oDEaa9lWXaP">
-    <mxGraphModel dx="2011" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="915" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,54 +10,54 @@
         <mxCell id="U8aGOQa0gDFJeQn0B_IE-2" value="Registro E/S de Produtos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="329" y="440" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U8aGOQa0gDFJeQn0B_IE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U8aGOQa0gDFJeQn0B_IE-4" target="U8aGOQa0gDFJeQn0B_IE-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U8aGOQa0gDFJeQn0B_IE-4" value="Registrar Prdotuo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="373" y="520" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="U8aGOQa0gDFJeQn0B_IE-5" value="Depósito de Dados" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="720" width="120" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="U8aGOQa0gDFJeQn0B_IE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="U8aGOQa0gDFJeQn0B_IE-6" target="U8aGOQa0gDFJeQn0B_IE-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U8aGOQa0gDFJeQn0B_IE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="U8aGOQa0gDFJeQn0B_IE-6" target="U8aGOQa0gDFJeQn0B_IE-5" edge="1">
+        <mxCell id="U8aGOQa0gDFJeQn0B_IE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="gQ9JZZvFfh6xcWR4-KOC-5" target="U8aGOQa0gDFJeQn0B_IE-11" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="473" y="610" />
-              <mxPoint x="650" y="610" />
-              <mxPoint x="650" y="690" />
-              <mxPoint x="600" y="690" />
-            </Array>
+            <mxPoint x="423" y="640" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U8aGOQa0gDFJeQn0B_IE-6" value="Registrar E/S" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="373" y="572" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="U8aGOQa0gDFJeQn0B_IE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="U8aGOQa0gDFJeQn0B_IE-7" target="U8aGOQa0gDFJeQn0B_IE-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U8aGOQa0gDFJeQn0B_IE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="U8aGOQa0gDFJeQn0B_IE-7" target="U8aGOQa0gDFJeQn0B_IE-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U8aGOQa0gDFJeQn0B_IE-7" value="Registrar Valor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="373" y="620" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="U8aGOQa0gDFJeQn0B_IE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="U8aGOQa0gDFJeQn0B_IE-9" target="U8aGOQa0gDFJeQn0B_IE-4" edge="1">
+        <mxCell id="gQ9JZZvFfh6xcWR4-KOC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U8aGOQa0gDFJeQn0B_IE-9" target="gQ9JZZvFfh6xcWR4-KOC-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U8aGOQa0gDFJeQn0B_IE-9" value="Vendedor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="560" width="120" height="32" as="geometry" />
+          <mxGeometry x="100" y="566" width="120" height="32" as="geometry" />
         </mxCell>
         <mxCell id="U8aGOQa0gDFJeQn0B_IE-11" value="Registro Completo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="558" width="120" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="U8aGOQa0gDFJeQn0B_IE-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="U8aGOQa0gDFJeQn0B_IE-4" target="U8aGOQa0gDFJeQn0B_IE-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="740" as="sourcePoint" />
-            <mxPoint x="530" y="690" as="targetPoint" />
+        <mxCell id="gQ9JZZvFfh6xcWR4-KOC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gQ9JZZvFfh6xcWR4-KOC-1" target="gQ9JZZvFfh6xcWR4-KOC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ9JZZvFfh6xcWR4-KOC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gQ9JZZvFfh6xcWR4-KOC-1" target="gQ9JZZvFfh6xcWR4-KOC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ9JZZvFfh6xcWR4-KOC-1" value="Registrar Produto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="383" y="500" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ9JZZvFfh6xcWR4-KOC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gQ9JZZvFfh6xcWR4-KOC-3" target="gQ9JZZvFfh6xcWR4-KOC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ9JZZvFfh6xcWR4-KOC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gQ9JZZvFfh6xcWR4-KOC-3" target="gQ9JZZvFfh6xcWR4-KOC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ9JZZvFfh6xcWR4-KOC-3" value="Registrar E/S" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379.5" y="560" width="87" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ9JZZvFfh6xcWR4-KOC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="gQ9JZZvFfh6xcWR4-KOC-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="423" y="640" as="sourcePoint" />
+            <mxPoint x="660" y="590" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gQ9JZZvFfh6xcWR4-KOC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gQ9JZZvFfh6xcWR4-KOC-5" target="gQ9JZZvFfh6xcWR4-KOC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="709.9999999999998" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gQ9JZZvFfh6xcWR4-KOC-5" value="Registrar valor" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="384.5" y="620" width="77" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ9JZZvFfh6xcWR4-KOC-15" value="Depósito de Dados" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="690" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
