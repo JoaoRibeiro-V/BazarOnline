@@ -6,27 +6,23 @@
   --nav-font: "Poppins",  sans-serif;
 }
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #252223; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: #ffffff;
+  --default-color: #444444;
+  --heading-color: #000000;
+  --accent-color: #252223;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff; 
 }
 
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: rgba(255, 255, 255, 0.8);  /* The default color of the main navmenu links */
-  --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #252223; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: rgba(255, 255, 255, 0.8);
+  --nav-hover-color: #ffffff;
+  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-background-color: #ffffff;
+  --nav-dropdown-color: #444444;
+  --nav-dropdown-hover-color: #252223;
 }
-
-/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
   --background-color: #f6f6f6;
@@ -42,14 +38,10 @@
   --contrast-color: #ffffff;
 }
 
-/* Smooth scroll */
 :root {
   scroll-behavior: smooth;
 }
 
-/*--------------------------------------------------------------
-# General Styling & Shared Classes
---------------------------------------------------------------*/
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -77,8 +69,6 @@ h6 {
   font-family: var(--heading-font);
 }
 
-/* Pulsating Play Button
-------------------------------*/
 .pulsating-play-btn {
   width: 94px;
   height: 94px;
@@ -156,9 +146,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Global Header
---------------------------------------------------------------*/
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -480,10 +467,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Navmenu - Desktop */
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
@@ -590,7 +573,6 @@ h6 {
   }
 }
 
-/* Navmenu - Mobile */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
     color: var(--default-color);
@@ -717,9 +699,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Global Footer
---------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -998,9 +977,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
 #preloader {
   position: fixed;
   inset: 0;
@@ -1033,9 +1009,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Scroll Top Button
---------------------------------------------------------------*/
 .scroll-top {
   position: fixed;
   visibility: hidden;
@@ -1066,18 +1039,12 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Global Page Titles & Breadcrumbs
---------------------------------------------------------------*/
 .page-title {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -1111,9 +1078,6 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-/*--------------------------------------------------------------
-# Global Sections
---------------------------------------------------------------*/
 section,
 .section {
   color: var(--default-color);
@@ -1131,9 +1095,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Global Section Titles
---------------------------------------------------------------*/
 .section-title {
   text-align: center;
   padding-bottom: 60px;
@@ -1165,9 +1126,6 @@ section,
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 .hero {
   padding-top: 100px;
   background: linear-gradient(135deg, var(--surface-color) 0%, color-mix(in srgb, var(--accent-color), transparent 95%) 100%);
@@ -1569,9 +1527,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Promo Cards Section
---------------------------------------------------------------*/
 .promo-cards {
   padding-top: 24px;
   --default-color: #666;
@@ -1831,9 +1786,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Best Sellers Section
---------------------------------------------------------------*/
 .best-sellers {
   padding-top: 60px;
   padding-bottom: 30px;
@@ -2146,9 +2098,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Cards Section
---------------------------------------------------------------*/
 .cards {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -2354,9 +2303,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Call To Action Section
---------------------------------------------------------------*/
 .call-to-action {
   background: radial-gradient(ellipse at top, color-mix(in srgb, var(--accent-color), transparent 96%) 0%, var(--surface-color) 50%);
   position: relative;
@@ -2746,9 +2692,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Product Details Section
---------------------------------------------------------------*/
 .product-details .product-gallery .main-showcase {
   position: relative;
   margin-bottom: 1.5rem;
@@ -3667,9 +3610,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Category Header Section
---------------------------------------------------------------*/
 .category-header {
   padding-bottom: 0;
 }
@@ -3898,9 +3838,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Category Product List Section
---------------------------------------------------------------*/
 .category-product-list {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -4136,9 +4073,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Category Pagination Section
---------------------------------------------------------------*/
 .category-pagination {
   padding-top: 0;
 }
@@ -4218,9 +4152,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Cart Section
---------------------------------------------------------------*/
 .cart .cart-items {
   background-color: var(--surface-color);
   border-radius: 0.5rem;
@@ -4700,9 +4631,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Checkout Section
---------------------------------------------------------------*/
 .checkout {
   padding: 60px 0;
 }
@@ -5317,25 +5245,14 @@ section,
   height: auto !important;
 }
 
-/*--------------------------------------------------------------
-# Order Confirmation Section
---------------------------------------------------------------*/
 .order-confirmation {
   position: relative;
-  /* ===== Sidebar Styles ===== */
-  /* ===== Main Content Styles ===== */
 }
 
 .order-confirmation .sidebar {
   background: linear-gradient(145deg, var(--accent-color), color-mix(in srgb, var(--accent-color), #000 60%));
   color: var(--contrast-color);
   border-radius: 16px 0 0 16px;
-  /* Success Animation */
-  /* Order ID */
-  /* Stepper */
-  /* Price Summary */
-  /* Delivery Info */
-  /* Customer Service */
 }
 
 .order-confirmation .sidebar .sidebar-content {
@@ -5567,10 +5484,6 @@ section,
   background-color: var(--surface-color);
   border-radius: 0 16px 16px 0;
   padding: 3rem 2.5rem;
-  /* Thank You Message */
-  /* Details Cards */
-  /* Action Area */
-  /* Recommended Products */
 }
 
 @media (max-width: 991.98px) {
@@ -5641,8 +5554,6 @@ section,
 
 .order-confirmation .main-content .details-card .card-body {
   padding: 1.5rem;
-  /* Payment Styles */
-  /* Order Items */
 }
 
 .order-confirmation .main-content .details-card .card-body label {
@@ -5903,9 +5814,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Search Results Header Section
---------------------------------------------------------------*/
 .search-results-header .results-count h2 {
   font-size: 1.75rem;
   margin-bottom: 0.5rem;
@@ -6050,9 +5958,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Search Product List Section
---------------------------------------------------------------*/
 .search-product-list .product-card {
   position: relative;
   background: var(--surface-color);
@@ -6283,9 +6188,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Account Section
---------------------------------------------------------------*/
 .account .mobile-menu .mobile-menu-toggle {
   width: 100%;
   background-color: var(--surface-color);
@@ -7784,9 +7686,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Login Section
---------------------------------------------------------------*/
 .login .auth-container {
   max-width: 480px;
   margin: 0 auto;
@@ -8137,9 +8036,6 @@ section,
   color: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
-/*--------------------------------------------------------------
-# Register Section
---------------------------------------------------------------*/
 .register .registration-form-wrapper {
   position: relative;
   background-color: var(--surface-color);
@@ -8484,9 +8380,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# About 2 Section
---------------------------------------------------------------*/
 .about-2 .section-badge {
   display: inline-flex;
   align-items: center;
@@ -8577,9 +8470,6 @@ section,
   top: calc(50% - 47px);
 }
 
-/*--------------------------------------------------------------
-# Stats Section
---------------------------------------------------------------*/
 .stats .stats-item {
   padding: 30px;
   width: 100%;
@@ -8610,9 +8500,6 @@ section,
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Contact 2 Section
---------------------------------------------------------------*/
 .contact-2 .contact-info-box {
   background-color: var(--surface-color);
   border-radius: 10px;
@@ -8842,9 +8729,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Support Section
---------------------------------------------------------------*/
 .support .support-header {
   text-align: center;
   margin-bottom: 60px;
@@ -9213,9 +9097,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Faq Section
---------------------------------------------------------------*/
 .faq .faq-card {
   height: 100%;
   padding: 40px;
@@ -9342,9 +9223,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Terms Of Service Section
---------------------------------------------------------------*/
 .terms-of-service .tos-header {
   margin-bottom: 60px;
 }
@@ -9639,9 +9517,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Privacy Section
---------------------------------------------------------------*/
 .privacy .privacy-header {
   text-align: center;
   margin-bottom: 70px;
@@ -10029,9 +9904,6 @@ section,
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/*--------------------------------------------------------------
-# Retun Policy Section
---------------------------------------------------------------*/
 .retun-policy .return-hero {
   margin-bottom: 70px;
   text-align: center;
@@ -10511,9 +10383,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Paymnt Methods Section
---------------------------------------------------------------*/
 .paymnt-methods .payment-header {
   margin-bottom: 60px;
 }
@@ -10868,9 +10737,6 @@ section,
   margin: 0;
 }
 
-/*--------------------------------------------------------------
-# Shipping Info Section
---------------------------------------------------------------*/
 .shipping-info .content-block {
   padding: 60px 0;
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 95%);
@@ -11106,9 +10972,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Error 404 Section
---------------------------------------------------------------*/
 .error-404 {
   padding: 80px 0;
   margin: 0 auto;
@@ -11219,16 +11082,9 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
 .starter-section {
-  /* Add your styles here */
 }
 
-/*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
 .widgets-container {
   margin: 60px 0 30px 0;
 }
