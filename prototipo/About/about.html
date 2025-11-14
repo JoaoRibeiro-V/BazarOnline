@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>ShopUp - Sobre</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link href="../assets/img/logo.png" rel="icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="about-page">
+
+  <header id="header" class="header sticky-top">
+    <div class="top-bar py-2">
+      <div class="container-fluid container-xl">
+        <div class="d-flex justify-content-center">
+          <div class="announcement-slider swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": { "delay": 5000 },
+                "slidesPerView": 1,
+                "direction": "vertical",
+                "effect": "slide"
+              }
+            </script>
+            <div class="swiper-wrapper text-center">
+              <div class="swiper-slide">🚚 Frete grátis em pedidos acima de R$50</div>
+              <div class="swiper-slide">💰 Garantia de devolução do dinheiro em até 30 dias</div>
+              <div class="swiper-slide">🎁 20% de desconto na sua primeira compra</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+    <div class="main-header">
+      <div class="container-fluid container-xl">
+        <div class="d-flex py-3 align-items-center justify-content-between">
+
+          <a href="../index.html" class="logo d-flex align-items-center">
+            <img src="../assets/img/logo.png" alt="" height="35" width="35">
+            <h1 class="sitename">ShopUp</h1>
+          </a>
+
+          <form class="search-form desktop-search-form">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Pesquisar por produtos">
+              <button class="btn" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </form>
+
+          <div class="header-actions d-flex align-items-center justify-content-end">
+
+            <button class="header-action-btn mobile-search-toggle d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSearch" aria-expanded="false" aria-controls="mobileSearch">
+              <i class="bi bi-search"></i>
+            </button>
+
+            <div class="dropdown account-dropdown">
+              <button class="header-action-btn" data-bs-toggle="dropdown">
+                <i class="bi bi-person"></i>
+              </button>
+              <div class="dropdown-menu">
+                <div class="dropdown-header">
+                  <h6>Bem vindo ao <span class="sitename">ShopUp</span></h6>
+                  <p class="mb-0">Acesse sua conta e gerencie seus pedidos</p>
+                </div>
+                <div class="dropdown-body">
+                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                    <i class="bi bi-person-circle me-2"></i>
+                    <span>Meu Perfil</span>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                    <i class="bi bi-bag-check me-2"></i>
+                    <span>Meus Pedidos</span>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                    <i class="bi bi-heart me-2"></i>
+                    <span>Minha Lista de Desejos</span>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                    <i class="bi bi-gear me-2"></i>
+                    <span>Configurações</span>
+                  </a>
+                </div>
+                <div class="dropdown-footer">
+                  <a href="register.html" class="btn btn-primary w-100 mb-2">Entrar</a>
+                  <a href="login.html" class="btn btn-outline-primary w-100">Cadastrar</a>
+                </div>
+              </div>
+            </div>
+
+            <a href="account.html" class="header-action-btn d-none d-md-block">
+              <i class="bi bi-heart"></i>
+              <span class="badge">0</span>
+            </a>
+
+            <a href="cart.html" class="header-action-btn">
+              <i class="bi bi-cart3"></i>
+              <span class="badge">3</span>
+            </a>
+
+            <i class="mobile-nav-toggle d-xl-none bi bi-list me-0"></i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-nav">
+      <div class="container-fluid container-xl position-relative">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html" class="active">Sobre</a></li>
+            <li><a href="../Contact/contact.html">Contato</a></li>
+            <li><a href="../Products/category.html">Categoria</a></li>
+            <li><a href="../Products/product-details.html">Detalhes dos Produto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="collapse" id="mobileSearch">
+      <div class="container">
+        <form class="search-form">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Pesquisar por produtos">
+            <button class="btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="page-title light-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Sobre</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li class="current">Sobre</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <section id="about-2" class="about-2 section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <span class="section-badge"><i class="bi bi-info-circle"></i>Sobre</span>
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="about-title">Suba o nível das suas compras com a ShopUp!</h2>
+            <p class="about-description">A ShopUp nasceu com um propósito simples: tornar a experiência de comprar online mais fácil, acessível e cheia de boas surpresas. Aqui, cada produto é escolhido com carinho para oferecer qualidade, estilo e preço justo em um só lugar.</p>
+          </div>
+          <div class="col-lg-6">
+            <p class="about-text">Mais do que um bazar online, somos uma comunidade apaixonada por descobertas. Desde produtos do dia a dia até peças exclusivas, a ShopUp conecta você ao que há de melhor, com segurança e praticidade.</p>
+            <p class="about-text">Nosso compromisso é com a transparência, confiança e satisfação total. Trabalhamos para que cada compra seja uma boa lembrança e cada cliente, um amigo que volta sempre.</p>
+          </div>
+        </div>
+
+        <div class="row features-boxes gy-4 mt-3">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-box">
+              <div class="icon-box">
+                <i class="bi bi-bullseye"></i>
+              </div>
+              <h3><a href="#" class="stretched-link">Nossa Missão</a></h3>
+              <p>Tornar a moda, o estilo e o consumo consciente acessíveis a todos. Buscamos sempre oferecer produtos de qualidade, preços justos e uma experiência de compra descomplicada.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-box">
+              <div class="icon-box">
+                <i class="bi bi-person-check"></i>
+              </div>
+              <h3><a href="#" class="stretched-link">Compromisso</a></h3>
+              <p>Cada cliente é único. Por isso, trabalhamos com atendimento humanizado e suporte rápido, garantindo que você receba exatamente o que pediu, e fique 100% satisfeito.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-box">
+              <div class="icon-box">
+                <i class="bi bi-clipboard-data"></i>
+              </div>
+              <h3><a href="#" class="stretched-link">Sustentabilidade</a></h3>
+              <p>Valorizamos marcas e produtos que respeitam o meio ambiente e as pessoas. Comprar na ShopUp é escolher um consumo mais consciente e responsável.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="stats" class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Clientes Felizes: </strong> <span>Pessoas que confiam e voltam a comprar conosco</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projetos: </strong> <span>Itens entregues com segurança e qualidade em todo o Brasil.</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Horas de Suporte: </strong> <span>Sempre disponíveis para ajudar e resolver dúvidas rapidamente.</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Membros da Equipe: </strong> <span>Um time dedicado a garantir sua melhor experiência.</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="footer-main">
+      <div class="container">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget footer-about">
+              <a href="../index.html" class="logo">
+                <span class="sitename">ShopUp</span>
+              </a>
+              <p>Suba o nível das suas compras.</p>
+
+              <div class="social-links mt-4">
+                <h5>Conecte-se Conosco</h5>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="footer-widget">
+              <h4>Shop</h4>
+              <ul class="footer-links">
+                <li><a href="category.html">Novos Chegados</a></li>
+                <li><a href="category.html">Melhores Vendedores</a></li>
+                <li><a href="category.html">Roupas de Mulheres</a></li>
+                <li><a href="category.html">Roupas de Homens</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="footer-widget">
+              <h4>Suporte</h4>
+              <ul class="footer-links">
+                <li><a href="support.html">Centro de Ajuda</a></li>
+                <li><a href="account.html">Status do Pedido</a></li>
+                <li><a href="shiping-info.html">Informações de Envio</a></li>
+                <li><a href="return-policy.html">Devoluções &amp; Trocas</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row gy-3 align-items-center">
+          <div class="col-lg-6 col-md-12">
+            <div class="copyright">
+              <p>© <span>Copyright</span> <strong class="sitename">ShopUp</strong>. Todos os Direitos Reservados.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <div class="d-flex flex-wrap justify-content-lg-end justify-content-center align-items-center gap-4">
+              <div class="payment-methods">
+                <div class="payment-icons">
+                  <i class="bi bi-credit-card" aria-label="Credit Card"></i>
+                  <i class="bi bi-paypal" aria-label="PayPal"></i>
+                  <i class="bi bi-apple" aria-label="Apple Pay"></i>
+                  <i class="bi bi-google" aria-label="Google Pay"></i>
+                  <i class="bi bi-cash" aria-label="Cash on Delivery"></i>
+                </div>
+              </div>
+
+              <div class="legal-links">
+                <a href="termos-de-uso.html">Termos de Uso</a>
+                <a href="politica-de-privacidade.html">Privacidade</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/drift-zoom/Drift.min.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
