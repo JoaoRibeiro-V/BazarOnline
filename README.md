@@ -34,3 +34,6 @@ BazarOnline/
 ├── 🧱 protótipo/       # Protótipo do sistema (link ou arquivos)
 └── 🧾 README.md        # Este arquivo
 ```
+
+## 🛜 Página Web
+https://joaoribeiro-v.github.io/ShopUp/
