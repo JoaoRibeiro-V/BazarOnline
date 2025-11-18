@@ -23,7 +23,7 @@ O sistema ShopUp é uma landpage em aplicação web completa que irá permitir:
 | Nome | Papel no Projeto |
 |------|------------------|
 | João Gabriel Vasques Ribeiro | Analista de Requisitos / Desenvolvedor Backend / Testador |
-| Jonathan Renan Borges | Designer UX/UI / Desenvolvedor Frontend |
+| Jonathan Renan Borges | Analista de Documentação / Desenvolvedor Frontend / Designer UI/UX |
 
 ## 📁 Estrutura do Repositório
 
