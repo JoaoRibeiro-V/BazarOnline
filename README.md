@@ -15,7 +15,7 @@ O sistema ShopUp é uma landpage em aplicação web completa que irá permitir:
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Banco de Dados**: MySQL
-- **Testes**: JUnit
+- **Testes**: JUnit 5
 - **Controle de Versão**: Git/GitHub
 
 ## 👥 Equipe do Projeto
