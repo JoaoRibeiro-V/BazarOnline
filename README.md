@@ -30,9 +30,6 @@ O sistema oferece:
 - Modelagem e documentação  
 
 ### 🖥️ Sistemas de Informação
-- Modelagem de banco de dados  
-- Processo de vendas e trocas  
-- Interface e experiência do usuário  
 - Integração entre camadas do sistema  
 
 ## 🛠️ Tecnologias Utilizadas
@@ -75,7 +72,7 @@ O projeto inclui **10 testes JUnit**, cobrindo:
 
 ### 🟦 1. Pré-requisitos
 - Java 17+  
-- IntelliJ IDEA  
+- IntelliJ IDEA / NetBeans
 - Git
 
 ### 🟩 2. Clonar o Repositório
@@ -87,7 +84,7 @@ cd ShopUp
 ### 🟨 3. Abrir no IntelliJ/NetBeans
 Use **Open Folder** e selecione a pasta do projeto.
 
-### 🟧 4. Adicionar JUnit (se necessário)
+### 🟧 4. Adicionar Dependência Maven JUnit (se necessário)
 Maven:
 ```xml
 <dependency>
