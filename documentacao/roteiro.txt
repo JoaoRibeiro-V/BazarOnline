@@ -1,0 +1,151 @@
+1. Slide de Abertura — Título do Projeto
+
+Título: Plataforma Online de Compras para Bazar
+Subtítulo: Simplificando doações, vendas e compras sociais
+Fala:
+"Olá, meu nome é ___ e hoje vou apresentar nosso projeto de plataforma digital para um bazar online, criado para facilitar o processo de compra, venda e doação de produtos de forma simples e acessível."
+
+2. Contexto e Problema
+
+Título: Por que criar um bazar online?
+Conteúdo no slide:
+
+Dificuldade de gestão de produtos em bazares físicos
+
+Baixa organização de estoque e preços
+
+Falta de alcance e divulgação
+
+Pouca praticidade para compradores
+
+Fala:
+"Os bazares tradicionais enfrentam diversos desafios, como organização de produtos, divulgação limitada e dificuldades no processo de compra. Nosso projeto surge para resolver esses problemas."
+
+3. Objetivo do Projeto
+
+Título: Objetivo Geral
+Conteúdo:
+
+Criar uma plataforma digital simples, intuitiva e acessível
+
+Permitir divulgação, compra, venda e doação de itens
+
+Facilitar o gerenciamento por administradores
+
+Fala:
+"Nosso objetivo é digitalizar a experiência do bazar, entregando uma plataforma prática para administradores e agradável para os usuários."
+
+4. Público-Alvo
+
+Título: Quem vai usar?
+Conteúdo:
+
+Consumidores interessados em produtos usados
+
+Pessoas que desejam doar itens
+
+Organizações que realizam bazares solidários
+
+Voluntários e administradores do bazar
+
+5. Funcionalidades Principais
+
+Título: O que a plataforma oferece?
+Liste no slide:
+
+Catálogo de produtos com fotos, descrição e preço
+
+Fala:
+"A plataforma foi projetada com foco na usabilidade, oferecendo funções essenciais para compradores e administradores."
+
+6. Tecnologias Utilizadas
+
+Título: Tecnologias do Projeto
+git, github
+vscode
+Conteúdo (ajuste conforme o seu documento):
+
+Front-end: HTML, CSS, JavaScript
+
+Banco de dados: MySQL (modelagem)
+
+Prototipação: Figma/n sei oq tu usou
+
+Fala:
+"Essas tecnologias garantem estabilidade, responsividade e facilidade de manutenção."
+
+8. APRESENTAÇÃO DO PROTÓTIPO (Slide-chave)
+
+Título: Protótipo da Plataforma
+Conteúdo:
+
+Tela inicial
+
+Página de produtos
+
+Detalhes do item
+
+Carrinho
+
+Fala:
+"Agora vamos ver o protótipo funcionando. Vou mostrar as principais telas e o fluxo de uso."
+
+9. Arquitetura do Sistema
+
+Título: Estrutura Técnica
+Conteúdo:
+
+Modelagem
+
+Fala:
+"A arquitetura permite escalabilidade e fácil integração com outros serviços."
+
+10. Benefícios do Projeto
+
+Título: Principais Vantagens
+Conteúdo:
+
+exemplos:
+
+Aumenta as vendas do bazar
+
+Melhora divulgação dos produtos
+
+Facilita gestão interna
+
+Reduz erros de estoque
+
+Contribui para causas sociais
+
+11. Cronograma do Desenvolvimento
+
+Título: Linha do Tempo
+Inclua:
+
+Planejamento
+
+Protótipo
+
+Desenvolvimento
+
+12. Expectativas futuras
+
+Título: Impacto Previsto
+Conteúdo:
+
+Back-end completo
+
+Area administrativa
+
+Funcionalidades do site finalizadas
+
+13. Conclusão
+
+Título: Conclusão
+Fala:
+"Nosso projeto oferece uma solução prática e moderna para bazares, promovendo impacto social e melhor experiência para usuários e administradores."
+
+14. Perguntas
+
+Título: Dúvidas?
+"Obrigada(o)! Agora estou disponível para perguntas."
