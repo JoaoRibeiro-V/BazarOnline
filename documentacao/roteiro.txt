@@ -1,151 +1,190 @@
-1. Slide de Abertura — Título do Projeto
+1. Slide de Abertura — Título + Equipe + Contexto Técnico
 
-Título: Plataforma Online de Compras para Bazar
-Subtítulo: Simplificando doações, vendas e compras sociais
+Título: Plataforma Online para Gestão de Bazar Solidário
+Subtítulo: Uma solução web para doações, vendas e administração de produtos
 Fala:
-"Olá, meu nome é ___ e hoje vou apresentar nosso projeto de plataforma digital para um bazar online, criado para facilitar o processo de compra, venda e doação de produtos de forma simples e acessível."
+“Olá, meu nome é ___. Hoje apresentarei a solução que desenvolvemos dentro da disciplina de Engenharia de Software/Sistemas de Informação: uma plataforma web para gerenciamento de bazares solidários, construída com foco em modelagem, usabilidade e estruturação técnica.”
 
-2. Contexto e Problema
+2. Problema + Requisitos Iniciais
 
-Título: Por que criar um bazar online?
-Conteúdo no slide:
+Título: Problema e Necessidades Identificadas
+Slide:
 
-Dificuldade de gestão de produtos em bazares físicos
+Dificuldade na gestão de produtos
 
-Baixa organização de estoque e preços
+Falta de controle de estoque e preços
 
-Falta de alcance e divulgação
+Baixo alcance e divulgação
 
-Pouca praticidade para compradores
+Processo manual para administração
 
-Fala:
-"Os bazares tradicionais enfrentam diversos desafios, como organização de produtos, divulgação limitada e dificuldades no processo de compra. Nosso projeto surge para resolver esses problemas."
-
-3. Objetivo do Projeto
-
-Título: Objetivo Geral
-Conteúdo:
-
-Criar uma plataforma digital simples, intuitiva e acessível
-
-Permitir divulgação, compra, venda e doação de itens
-
-Facilitar o gerenciamento por administradores
+Falta de rastreabilidade de doações e vendas
 
 Fala:
-"Nosso objetivo é digitalizar a experiência do bazar, entregando uma plataforma prática para administradores e agradável para os usuários."
+“Durante o levantamento de requisitos, identificamos que os processos eram totalmente manuais. A ausência de controles gerava erros, inconsistências e perda de produtos, o que motivou o desenvolvimento do sistema.”
+
+3. Engenharia de Requisitos — Funcionais e Não Funcionais
+
+Título: Levantamento de Requisitos
+Slide:
+
+Requisitos Funcionais
+listar
+
+Requisitos Não Funcionais
+listar
+
+Fala:
+“A partir da análise, definimos requisitos funcionais e não funcionais que guiaram todo o desenvolvimento posterior.”
 
 4. Público-Alvo
 
-Título: Quem vai usar?
-Conteúdo:
+Título: Usuários do Sistema
+Slide:
 
-Consumidores interessados em produtos usados
+Usuários compradores
 
-Pessoas que desejam doar itens
+Pessoas interessadas em doar
 
-Organizações que realizam bazares solidários
+Administradores do bazar
 
-Voluntários e administradores do bazar
-
-5. Funcionalidades Principais
-
-Título: O que a plataforma oferece?
-Liste no slide:
-
-Catálogo de produtos com fotos, descrição e preço
+Organização responsável
 
 Fala:
-"A plataforma foi projetada com foco na usabilidade, oferecendo funções essenciais para compradores e administradores."
+“Com isso, identificamos três atores principais para os diagramas e modelagem do sistema.”
 
-6. Tecnologias Utilizadas
+5. Diagrama de Caso de Uso
 
-Título: Tecnologias do Projeto
-git, github
-vscode
-Conteúdo (ajuste conforme o seu documento):
+Título: Modelagem — Caso de Uso
+Slide (imagem do diagrama):
+Inclua um Use Case Diagram com:
+Atores: Comprador, Doador, Administrador
+Casos: Gerenciar produtos, Visualizar catálogo, Realizar compra, Registrar doação, Autenticar usuário
+
+Fala:
+“O diagrama apresenta uma visão de alto nível do que cada tipo de usuário pode executar dentro do sistema.”
+
+6. Diagrama de Classes (Visão Lógica do Sistema)
+
+Título: Modelagem — Diagrama de Classes
+Slide:
+
+Categoria
+
+Usuario
+
+Vendedor
+
+Estoque
+
+Produto
+
+Fala:
+“Com base nos requisitos, definimos o diagrama de classes que estrutura a lógica do sistema e os relacionamentos entre os principais objetos.”
+
+9. Tecnologias Utilizadas
+
+Título: Stack Tecnológica
+Slide:
+
+Ferramentas
+
+Git e GitHub
+
+VSCode
+
+Figma (ou outra ferramenta utilizada)
+
+Tecnologias
 
 Front-end: HTML, CSS, JavaScript
 
-Banco de dados: MySQL (modelagem)
+Banco de dados: MySQL
 
-Prototipação: Figma/n sei oq tu usou
+Prototipação: Figma
 
-Fala:
-"Essas tecnologias garantem estabilidade, responsividade e facilidade de manutenção."
-
-8. APRESENTAÇÃO DO PROTÓTIPO (Slide-chave)
-
-Título: Protótipo da Plataforma
-Conteúdo:
-
-Tela inicial
-
-Página de produtos
-
-Detalhes do item
-
-Carrinho
+Versionamento: Git/GitHub
 
 Fala:
-"Agora vamos ver o protótipo funcionando. Vou mostrar as principais telas e o fluxo de uso."
+“A escolha dessas tecnologias permite fácil manutenção, versionamento seguro e criação rápida de protótipos.”
 
-9. Arquitetura do Sistema
+10. Protótipo — Telas e Fluxos
 
-Título: Estrutura Técnica
-Conteúdo:
+Título: Protótipo Navegável
+Slide:
+Inclua telas como:
 
-Modelagem
+Página inicial
+
+Catálogo
+
+Detalhe do produto
 
 Fala:
-"A arquitetura permite escalabilidade e fácil integração com outros serviços."
+“Criamos um protótipo navegável para validar a experiência do usuário e testar fluxos principais antes do desenvolvimento final.”
 
-10. Benefícios do Projeto
+11. Processo de Desenvolvimento
 
-Título: Principais Vantagens
-Conteúdo:
+Título: Metodologia Utilizada
+Slide:
 
-exemplos:
+Etapa 1: Levantamento de requisitos
 
-Aumenta as vendas do bazar
+Etapa 2: Modelagem e diagramas
 
-Melhora divulgação dos produtos
+Etapa 3: Prototipação
 
-Facilita gestão interna
+Etapa 4: Estruturação do front-end
 
-Reduz erros de estoque
+Etapa 5: Integração com o banco (parcial ou futura)
 
-Contribui para causas sociais
-
-11. Cronograma do Desenvolvimento
-
-Título: Linha do Tempo
-Inclua:
-
-Planejamento
-
-Protótipo
-
-Desenvolvimento
-
-12. Expectativas futuras
-
-Título: Impacto Previsto
-Conteúdo:
-
-Back-end completo
-
-Area administrativa
-
-Funcionalidades do site finalizadas
-
-13. Conclusão
-
-Título: Conclusão
 Fala:
-"Nosso projeto oferece uma solução prática e moderna para bazares, promovendo impacto social e melhor experiência para usuários e administradores."
+“O desenvolvimento seguiu um fluxo incremental, permitindo validar partes do sistema antes de evoluir para a próxima etapa.”
 
-14. Perguntas
+13. Benefícios do Sistema
+
+Título: Vantagens Obtidas
+Slide:
+
+Organização centralizada
+
+Controle de estoque
+
+Facilidade para compradores
+
+Maior alcance e divulgação
+
+Redução de erros
+
+Suporte a ações sociais
+
+Fala:
+“O resultado é um sistema que facilita processos internos e amplia a eficiência do bazar.”
+
+14. Trabalhos Futuros
+
+Título: Evoluções Planejadas
+Slide:
+
+Implementação do back-end completo
+
+CRUD administrativo funcional
+
+Sistema de autenticação
+
+Dashboard para administradores
+
+Fala:
+“A arquitetura já prevê evoluções importantes que tornarão o sistema plenamente funcional.”
+
+15. Conclusão
+
+Título: Encerramento
+Fala:
+“Com base na engenharia de software, desenvolvemos uma solução estruturada, modelada e preparada para expansão. O sistema demonstra como tecnologias simples, aliadas a uma modelagem sólida, podem gerar grande impacto social.”
+
+16. Perguntas
 
 Título: Dúvidas?
-"Obrigada(o)! Agora estou disponível para perguntas."
+Fala:
+“Obrigada(o)! Fico à disposição para perguntas.”
